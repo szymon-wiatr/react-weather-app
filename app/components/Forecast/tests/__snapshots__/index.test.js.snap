@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Forecast /> should render a Forecast 1`] = `
+<div
+  class="Wrapper-sc-1ju4keu-0 jKiBZy"
+>
+  <img
+    alt="icon"
+    src="https://www.weatherbit.io/static/img/icons/c01d.png"
+  />
+  <h3
+    class="forecast-description"
+  >
+    Clear sky
+  </h3>
+  <h1
+    class="forecast-temperature"
+  >
+    21.1
+     ℃
+  </h1>
+  <span
+    aria-labelledby="sunrise"
+    class="sun-icon"
+    role="img"
+  >
+    🌅 
+    02:40
+  </span>
+  <span
+    aria-labelledby="sunset"
+    class="sun-icon"
+    role="img"
+  >
+    🌄 
+    18:43
+  </span>
+</div>
+`;

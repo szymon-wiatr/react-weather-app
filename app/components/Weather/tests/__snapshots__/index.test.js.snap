@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Weather /> should render the loading indicator when its loading 1`] = `
+<div
+  class="Wrapper-sc-1fbvkdj-0 crfGzm"
+>
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 bVbynw"
+  />
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 fDKinQ"
+  />
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 cLVZrb"
+  />
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 dZUZPL"
+  />
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 cBGzIq"
+  />
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 hJMpSD"
+  />
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 eEeoRH"
+  />
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 biVHMz"
+  />
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 iRFzGj"
+  />
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 kNSfcD"
+  />
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 cKYTyK"
+  />
+  <div
+    class="Circle__CirclePrimitive-sc-1g3q6zo-0 jqqeVi"
+  />
+</div>
+`;
+
+exports[`<Weather /> should render the weather if loading was successful 1`] = `
+<div
+  class="Wrapper-sc-1ju4keu-0 jKiBZy"
+>
+  <img
+    alt="icon"
+    src="https://www.weatherbit.io/static/img/icons/c01d.png"
+  />
+  <h3
+    class="forecast-description"
+  >
+    Clear sky
+  </h3>
+  <h1
+    class="forecast-temperature"
+  >
+    21.1
+     ℃
+  </h1>
+  <span
+    aria-labelledby="sunrise"
+    class="sun-icon"
+    role="img"
+  >
+    🌅 
+    02:40
+  </span>
+  <span
+    aria-labelledby="sunset"
+    class="sun-icon"
+    role="img"
+  >
+    🌄 
+    18:43
+  </span>
+</div>
+`;

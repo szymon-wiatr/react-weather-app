@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should render and match the snapshot 1`] = `
+<section
+  class="Section-c961xk-0 jdaQwv"
+>
+  <form
+    class="Form-sc-1agrddf-0 chWgAW"
+  >
+    <input
+      class="Input-fl4fxf-0 kIXWOE"
+      id="cityname"
+      placeholder="City"
+      type="text"
+      value=""
+    />
+  </form>
+  <div
+    class="Wrapper-sc-1ju4keu-0 jKiBZy"
+  >
+    <h1
+      class="forecast-temperature"
+    >
+       ℃
+    </h1>
+    <span
+      aria-labelledby="sunrise"
+      class="sun-icon"
+      role="img"
+    >
+      🌅 
+    </span>
+    <span
+      aria-labelledby="sunset"
+      class="sun-icon"
+      role="img"
+    >
+      🌄 
+    </span>
+  </div>
+</section>
+`;

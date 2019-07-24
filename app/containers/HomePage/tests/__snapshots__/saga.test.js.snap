@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getWeather Saga should call the weatherLoadingError action if the response errors 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+  "type": "SELECT",
+}
+`;
+
+exports[`getWeather Saga should call the weatherLoadingError action if the response errors 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      "https://api.weatherbit.io/v2.0/current?key=994a9b1c1fb546a2af4e7a7d92e118b2&city=Skarżysko-Kamienna",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "CALL",
+}
+`;
+
+exports[`getWeather Saga should dispatch the weatherLoaded action if it requests the data successfully 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+  "type": "SELECT",
+}
+`;
+
+exports[`getWeather Saga should dispatch the weatherLoaded action if it requests the data successfully 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      "https://api.weatherbit.io/v2.0/current?key=994a9b1c1fb546a2af4e7a7d92e118b2&city=Skarżysko-Kamienna",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "CALL",
+}
+`;
